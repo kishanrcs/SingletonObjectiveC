@@ -13,6 +13,7 @@
 		0D753AC8212692D8006CFECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D753AC7212692D8006CFECF /* Assets.xcassets */; };
 		0D753ACB212692D8006CFECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D753AC9212692D8006CFECF /* LaunchScreen.storyboard */; };
 		0D753ACE212692D8006CFECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D753ACD212692D8006CFECF /* main.m */; };
+		0D753AD621269342006CFECF /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D753AD521269342006CFECF /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0D753ACA212692D8006CFECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D753ACC212692D8006CFECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D753ACD212692D8006CFECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0D753AD421269342006CFECF /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		0D753AD521269342006CFECF /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0D753ABF212692D3006CFECF /* AppDelegate.m */,
 				0D753AC1212692D3006CFECF /* ViewController.h */,
 				0D753AC2212692D3006CFECF /* ViewController.m */,
+				0D753AD421269342006CFECF /* Singleton.h */,
+				0D753AD521269342006CFECF /* Singleton.m */,
 				0D753AC4212692D3006CFECF /* Main.storyboard */,
 				0D753AC7212692D8006CFECF /* Assets.xcassets */,
 				0D753AC9212692D8006CFECF /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D753AC3212692D3006CFECF /* ViewController.m in Sources */,
+				0D753AD621269342006CFECF /* Singleton.m in Sources */,
 				0D753ACE212692D8006CFECF /* main.m in Sources */,
 				0D753AC0212692D3006CFECF /* AppDelegate.m in Sources */,
 			);
@@ -286,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QV94KZ8PWL;
 				INFOPLIST_FILE = SingletonObjectiveC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = QV94KZ8PWL;
 				INFOPLIST_FILE = SingletonObjectiveC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
