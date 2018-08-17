@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Singleton.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    Singleton *singleton = [Singleton sharedInstance];
+    singleton.str = @"Hello";
+    NSLog(@"%@", singleton.str);
+    [singleton testMethod];
 }
 
 

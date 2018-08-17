@@ -9,5 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Singleton : NSObject
-
++(Singleton*)sharedInstance;
+-(void)testMethod;
+@property(nonatomic , weak) NSString *str;
 @end

@@ -14,6 +14,7 @@
 		0D753ACB212692D8006CFECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D753AC9212692D8006CFECF /* LaunchScreen.storyboard */; };
 		0D753ACE212692D8006CFECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D753ACD212692D8006CFECF /* main.m */; };
 		0D753AD621269342006CFECF /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D753AD521269342006CFECF /* Singleton.m */; };
+		0D753AD9212695BC006CFECF /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D753AD8212695BC006CFECF /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		0D753ACD212692D8006CFECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D753AD421269342006CFECF /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		0D753AD521269342006CFECF /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		0D753AD7212695BC006CFECF /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		0D753AD8212695BC006CFECF /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				0D753ABF212692D3006CFECF /* AppDelegate.m */,
 				0D753AC1212692D3006CFECF /* ViewController.h */,
 				0D753AC2212692D3006CFECF /* ViewController.m */,
+				0D753AD7212695BC006CFECF /* SecondVC.h */,
+				0D753AD8212695BC006CFECF /* SecondVC.m */,
 				0D753AD421269342006CFECF /* Singleton.h */,
 				0D753AD521269342006CFECF /* Singleton.m */,
 				0D753AC4212692D3006CFECF /* Main.storyboard */,
@@ -149,6 +154,7 @@
 				0D753AC3212692D3006CFECF /* ViewController.m in Sources */,
 				0D753AD621269342006CFECF /* Singleton.m in Sources */,
 				0D753ACE212692D8006CFECF /* main.m in Sources */,
+				0D753AD9212695BC006CFECF /* SecondVC.m in Sources */,
 				0D753AC0212692D3006CFECF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

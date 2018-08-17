@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondVC.h
 //  SingletonObjectiveC
 //
 //  Created by MI on 17/08/18.
@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *lbl_display;
-@end
+@interface SecondVC : UIViewController
 
+@end
